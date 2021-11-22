@@ -5,13 +5,13 @@ import {
   Route, Routes
 } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import Features from "./components/Features/Features";
 
 function App() {
+ 
   return (
     <Router>
       <div className="app-container">
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>

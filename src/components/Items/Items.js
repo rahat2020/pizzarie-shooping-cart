@@ -10,11 +10,10 @@ export default function Items(props) {
                 <div className="card-body">
                     <div className="d-flex w-100 justify-content-even align-items-center">
                         <div className="d-block">
-
                             <h5 className="" id={style.title}>{name}</h5>
                             <span className="" id={style.price}><FontAwesomeIcon icon={faRupeeSign} />{price}</span>
                         </div>
-                        <button className="ms-auto" id={style.btnAdd} onClick={() =>props.handleAddItem(props.item)}>
+                        <button className="ms-auto" id={style.btnAdd} onClick={() => props.handleAddItem(props.item)}>
                             <FontAwesomeIcon icon={faPlus} id={style.btnIcon} />ADD
                         </button>
                     </div>

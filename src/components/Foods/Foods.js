@@ -14,7 +14,7 @@ export default function Foods() {
     }, [])
 
     const handleAddItem = (foodItem) => {
-        console.log('food added', foodItem)
+        console.log('food added to cart', foodItem)
         const newCart = [...cart, foodItem]
         setCart(newCart)
     }
@@ -22,16 +22,17 @@ export default function Foods() {
         <section className="container">
             <div className="row">
                 <div className="col-md-3">
-                    <div className="colLeft mt-3 align-items-end justify-content-end">
-                        <ul className="list-group align-items-end justify-content-end" id={style.items}>
-                            <Link to="/">   <li className="list-group-item">Pizza</li> </Link>
+                    <div className="colLeft mt-3">
+                        <ul className="list-group text-end" style={{ border:'none !important', overflow:'scroll' }}>
+                            <Link to="/">   <li className="list-group-item ms-auto">Pizza</li> </Link>
                             <Link to="/">   <li className="list-group-item">Startes</li> </Link>
                             <Link to="/">   <li className="list-group-item">Pasta</li> </Link>
                             <Link to="/">   <li className="list-group-item">Bevaregs</li> </Link>
                             <Link to="/">   <li className="list-group-item">Dolci</li> </Link>
-                            <Link to="/">   <li className="list-group-item">Dolci</li> </Link>
+                            <Link to="/">   <li className="list-group-item">Dipping Sauce</li> </Link>
+                            <Link to="/">   <li className="list-group-item">Build Your Own Pizza</li> </Link>
+                            <Link to="/">   <li className="list-group-item">Build Your Combo</li> </Link>
                         </ul>
-
                     </div>
                 </div>
                 <div className="col-md-6">
@@ -45,7 +46,6 @@ export default function Foods() {
                 <div className="col-md-3">
                     <div className="mt-3">
                         <Cart cart={cart}/>
-                      
                     </div>
                 </div>
             </div>

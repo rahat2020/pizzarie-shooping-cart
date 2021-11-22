@@ -8,6 +8,7 @@ import PersonPinIcon from '@mui/icons-material/PersonPin';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 export default function Navbar() {
+    
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light" id={style.NavbarShadow}>
@@ -31,7 +32,7 @@ export default function Navbar() {
                                 <Link id={style.navItem}  to="/features"className="nav-link"><PersonPinIcon className={style.navIcon}/> Sign in</Link>
                             </li>
                             <li className="nav-item">
-                                <Link  id={style.navItem} to="/features"className="nav-link"><ShoppingCartIcon className={style.navIcon}/>Cart</Link>
+                                <Link  id={style.navItem} to="/features"className="nav-link"> <ShoppingCartIcon className={style.navIcon}/>Cart</Link>
                             </li>
                         </ul>
                     </div>
