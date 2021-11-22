@@ -1,0 +1,30 @@
+
+/* card item css */
+#title{
+    font-size: 0.96em;
+}
+#price{
+    font-size: 0.76em;
+    color: #000000bd;
+    font-weight: 500;
+}
+#btnAdd{
+    border: 1px solid #60b246;
+    font-size: 0.5rem;
+    padding: 0.8em 1.8em;
+    color: #60b246;
+}
+#btnIcon{
+    margin-right: 0.3em;
+}
+.cardText{
+    height:100%;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: rgba(40, 44, 63, 0.45);
+}
+#foodCard{
+    border: none;
+    border-bottom:1px solid #5e5f6191  !important;
+
+}

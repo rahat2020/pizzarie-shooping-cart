@@ -1,0 +1,13 @@
+#NavbarShadow{
+    box-shadow: 1px 1px 1px rgb(97 96 96 / 20%);
+}
+.navIcon{
+    font-size: 1em;
+    color: #000000c2;
+    margin-right: 0.2em;
+}
+
+#navItem{
+    color: #333232d3 !important;
+    font-weight: 500 !important;
+}

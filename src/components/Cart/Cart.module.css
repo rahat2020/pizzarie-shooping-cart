@@ -1,0 +1,13 @@
+.CartTitle{
+    color: #000000cc;
+    font-size: 1.9em;
+    font-weight: 500;
+}
+
+.btnAdd{
+
+    border: none;
+    background-color: #60b246;
+    color: #fffff6d2;
+    padding:0.6em 5em;
+}
