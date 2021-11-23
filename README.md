@@ -1,4 +1,5 @@
 # Getting Started with Pizzarie shooping cart 
+Live link: https://shopping-cart-4a0bb.web.app/
 <!-- 
 This is the task project [Create React App](https://github.com/facebook/create-react-app).
 
