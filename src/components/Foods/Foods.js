@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import style from './Foods.module.css';
 import foodItems from '../../Data/FoodItems';
 import Items from '../Items/Items';
 import Cart from '../Cart/Cart';
